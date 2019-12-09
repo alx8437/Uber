@@ -610,5 +610,43 @@ footer a:hover {
     width: 150px;
     font-size: 12px;
   }
+  .promo_header {
+    font-size: 50px;
+  }
+  .reason_items {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu_item {
+    padding-right: 10px;
+  }
+  .menu_link {
+    font-size: 10px;
+  }
+  .subheader_logo img {
+    width: 100%;
+  }
+  .subheader_official {
+    font-size: 11px;
+  }
+  .subheader_phone {
+    font-size: 19px;
+  }
+  .subheader_btn {
+    width: 130px;
+    height: 40px;
+    font-size: 11px;
+  }
+  .promo_header {
+    font-size: 40px;
+  }
+  .promo_subheader {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
